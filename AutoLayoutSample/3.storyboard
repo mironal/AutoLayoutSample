@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Oyf-bs-mGH">
+            <objects>
+                <viewController id="lkb-5f-ZrJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FSK-0X-ZEu"/>
+                        <viewControllerLayoutGuide type="bottom" id="RuH-yg-DgJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2Rn-p4-R05">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vgj-Sz-hZ5">
+                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.63529411759999999" blue="0.83921568629999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73781515919999996" green="1" blue="0.85172825529999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="vgj-Sz-hZ5" firstAttribute="width" secondItem="2Rn-p4-R05" secondAttribute="width" multiplier="0.5" id="7wa-O8-Dl0"/>
+                            <constraint firstItem="vgj-Sz-hZ5" firstAttribute="centerX" secondItem="2Rn-p4-R05" secondAttribute="centerX" id="RE8-xS-4Kq"/>
+                            <constraint firstItem="vgj-Sz-hZ5" firstAttribute="centerY" secondItem="2Rn-p4-R05" secondAttribute="centerY" id="izH-bq-e5m"/>
+                            <constraint firstItem="vgj-Sz-hZ5" firstAttribute="height" secondItem="2Rn-p4-R05" secondAttribute="height" multiplier="0.5" id="rhn-O7-NuE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bnX-YW-BLl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="199" y="362"/>
+        </scene>
+    </scenes>
+</document>
